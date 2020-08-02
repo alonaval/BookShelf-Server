@@ -1,0 +1,167 @@
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\BooksServer.dll.config
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\BooksServer.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\BooksServer.pdb
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\csc.exe
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\csc.exe.config
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\csc.rsp
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\csi.exe
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\csi.exe.config
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\csi.rsp
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.AppContext.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Console.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.IO.Compression.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.IO.Pipes.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Security.Claims.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.ValueTuple.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\vbc.exe
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\vbc.exe.config
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\vbc.rsp
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\VBCSCompiler.exe
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\Antlr3.Runtime.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\Newtonsoft.Json.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Net.Http.Formatting.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Helpers.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Http.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Http.WebHost.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Mvc.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Optimization.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Razor.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.WebPages.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\WebGrease.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\Newtonsoft.Json.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Net.Http.Formatting.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Helpers.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Http.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Http.WebHost.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Mvc.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Optimization.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.Razor.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.WebPages.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\Antlr3.Runtime.pdb
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\obj\Debug\BooksServer.csprojAssemblyReference.cache
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\obj\Debug\BooksServer.csproj.CoreCompileInputs.cache
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\obj\Debug\BooksServer.csproj.CopyComplete
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\obj\Debug\BooksServer.dll
+C:\Users\polin\OneDrive\שולחן העבודה\BooksServer\BooksServer\obj\Debug\BooksServer.pdb
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\BooksServer.dll.config
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\BooksServer.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\BooksServer.pdb
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\csc.exe
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\csc.exe.config
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\csc.rsp
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\csi.exe
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\csi.exe.config
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\csi.rsp
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.AppContext.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Console.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.IO.Compression.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.IO.Pipes.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Security.Claims.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.ValueTuple.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\vbc.exe
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\vbc.exe.config
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\vbc.rsp
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\VBCSCompiler.exe
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\Antlr3.Runtime.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\Newtonsoft.Json.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Net.Http.Formatting.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Helpers.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Http.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Http.WebHost.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Mvc.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Optimization.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Razor.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.WebPages.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\WebGrease.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\Newtonsoft.Json.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Net.Http.Formatting.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Helpers.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Http.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Http.WebHost.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Mvc.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Optimization.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Razor.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.WebPages.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\Antlr3.Runtime.pdb
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\obj\Debug\BooksServer.csprojAssemblyReference.cache
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\obj\Debug\BooksServer.csproj.CoreCompileInputs.cache
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\obj\Debug\BooksServer.csproj.CopyComplete
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\obj\Debug\BooksServer.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\obj\Debug\BooksServer.pdb
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Cors.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Http.Cors.dll
+C:\Users\polin\OneDrive\שולחן העבודה\פרוייקט גמר ספרים\צד שרת\BooksServer\BooksServer\bin\System.Web.Http.Cors.xml

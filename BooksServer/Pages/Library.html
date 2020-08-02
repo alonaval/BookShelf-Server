@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/ajaxCall.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <label><b>Your Library</b></label>
+    <button onclick="addBook()">Add Book to Library</button><br />
+    <div id="book">
+        <div id="image"> </div>
+        <div id="ph">
+        </div>
+
+    </div><br />
+    <script>
+
+        var queryString = decodeURIComponent(window.location.search);
+        queryString = queryString.substring(1);
+        var queries = queryString.split("&");
+
+        console.log(queries[0]);
+  
+
+        str = "http://proj.ruppin.ac.il/bgroup2/prod/api/Library?" + queries[0];
+        ajaxCall("GET", str, " ", getLogInSuccessCB, getLogInErrCB);
+        function getLogInSuccessCB(data) {
+            console.log("data:")
+            console.log(data)
+            $("#book").empty();
+            for (var i = 0; i < data.length; i++) {
+
+                var temp = {
+
+                    picture: data[i].Picture
+
+                };
+
+              
+
+                var str = "<img src=" + temp.picture + " height='200' width='200'><br/>";
+                str += "<button onclick='DeleteBookFromDB(" + JSON.stringify(data[i].Bookid) + "); '> Delete from my Library </button> <br/> <br/>";
+                
+
+                $("#book").append(str);
+            }
+        }
+        function addBook() {
+           
+            var queryString = "?" + queries[0];
+            window.location.href = "addBook.html" + queryString;
+        }
+
+        function DeleteBookFromDB(id) {
+            console.log(id)
+            str = "http://proj.ruppin.ac.il/bgroup2/prod/api/Library?" + queries[0] + "&bookID=" + id;
+            ajaxCall("DELETE", str, " ", deleteBookSuccessCB, deleteBookErrCB);
+        }
+        function deleteBookSuccessCB(data) {
+            console.log(data)
+            str = "http://proj.ruppin.ac.il/bgroup2/prod/api/Library?" + queries[0];
+            ajaxCall("GET", str, " ", getLogInSuccessCB, getLogInErrCB);
+        }
+        function deleteBookErrCB(err) {
+            console.log(err)
+        }
+
+        function getLogInErrCB(data) {
+            console.log(data)
+        }
+    </script>
+</body>
+</html>

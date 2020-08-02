@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+
+    <style>
+        label {
+            background-color: #bde4f2;
+            color: black;
+        }
+
+        button {
+            background-color: #2fb2e0;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+    </style>
+
+    <script src="../Scripts/ajaxCall.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <button onclick="goToLibrary()">to my Library</button>
+    <select id="search">
+        <option value="0">choose option</option>
+        <option value="author">search by author</option>
+        <option value="title">search by title</option>
+    </select><br />
+    <input type="text" id="bookTitle">
+    <button onclick="SearchBooksInDB()">Search</button> <div id="ph"></div> <div id="btnOpt"></div><br /><br />
+    <div id="ph1"></div>
+    <label>book title:</label>  <div id="DBtitle"></div><br />
+    <div id="dropdownTitle"></div>
+    <label>book image:</label>
+    <div id="image"></div><br />
+    <label>book author:</label>  <div id="author"></div><br />
+    <label>book genre:</label>  <div id="genre"></div><br />
+    <label>book description:</label><div id="description"></div><br /><br />
+
+
+
+
+
+    <script>
+
+        var queryString = decodeURIComponent(window.location.search);
+        queryString = queryString.substring(1);
+        var queries = queryString.split("&");
+        console.log(queries[0])
+
+        function SearchBooksInDB() {
+            var textboxValue = document.getElementById("bookTitle").value;
+
+            ajaxCall("GET", "http://proj.ruppin.ac.il/bgroup2/prod/api/BookSearch?title=" + textboxValue, " ", SearchinDBSuccessCB, SearchinDBErrorCB);
+        }   
+
+        function SearchinDBSuccessCB(data) {
+            $("#dropdownTitle").empty();
+            $("#ph").empty();
+            console.log(data)
+
+            if (data.Title == null) {
+                SearchBooks();
+                return;
+            }
+
+            str = "<button onclick='PostBookSuccessCB(" + JSON.stringify(data.Bookid) + ");'> Add to library! </button><br/>";
+
+            $("#ph").append(str);
+            var strRent = "<button onclick='SearchRent(" + JSON.stringify(data.Bookid) + ");'> מקורות השאלה </button>";
+            $("#ph1").html(strRent);
+            btnOpt = "<button onclick='SearchBooks()'> more options</button>";
+            $("#btnOpt").html(btnOpt);
+            var image = "<img src=" + data.Picture + " height='200' width='200'>";
+            $("#author").empty();
+            $("#genre").empty();
+            $("#image").empty();
+            $("#description").empty();
+            $("#author").append(data.Author);
+            $("#genre").append(data.Genre);
+            $("#image").append(image);
+            $("#description").append(data.Description);
+            $("#DBtitle").append(data.Title);
+
+        } 
+
+        function SearchBooks() {
+            var textboxValue = document.getElementById("bookTitle").value;
+            var textSearch = document.getElementById("search").value;
+            var url;
+            console.log(textSearch);
+            if (textSearch == "author") {
+                url = "https://www.googleapis.com/books/v1/volumes?q=author:";
+            }
+            else if (textSearch == "title") {
+                url = "https://www.googleapis.com/books/v1/volumes?q=title:";
+            }
+          
+
+            url += textboxValue;
+            $.get(url).done(successSearchCB);
+            $.get(url).fail(errorCB);
+        }
+
+        function goToLibrary() {
+            var queryString = "?" + queries[0];
+            window.location.href = "Library.html" + queryString;
+        }
+      
+
+        function SearchRent(bookID) {
+           
+            console.log(bookID)
+            ajaxCall("GET", "http://proj.ruppin.ac.il/bgroup2/prod/api/BookSearch?BookID=" + bookID, " ", SearchRentDBSuccessCB, SearchRentErrorCB);
+        }
+
+
+        function SearchRentDBSuccessCB(data) {
+            console.log("thisss dataaa:")
+            console.log(data)
+            if (data.length==0) {
+                alert(" לא נמצאו מקורות השאלה לספר זה :(")
+                return;
+            }
+            alert(" נמצאו" + data.length +" מקורות השאלה")
+        }
+
+
+        function SearchRentErrorCB(err) {
+            console.log(err)
+        }
+
+        
+        function successSearchCB(data) {
+            $("#titles").empty();
+            $("#DBtitle").empty();
+            $("#ph1").empty();
+            var id = 0;
+            var strRent = "<button onclick='SearchRent(" + JSON.stringify(id) + ");'> מקורות השאלה </button>";
+            $("#ph1").html(strRent);
+            select = " <select id='titles' onchange='onchangeTitle()'></select>";
+            $("#dropdownTitle").html(select);
+           
+            if (data.items) {
+
+                console.log("itemss:")
+                console.log(data.items[0])
+                for (var i = 0; i < data.items.length; i++) {
+                    var isbn = 0;
+                    var description = "";
+                    if ((data.items[0].volumeInfo.industryIdentifiers[0].type) != "OTHER") {
+                        isbn = Number(data.items[0].volumeInfo.industryIdentifiers[1].identifier)
+                    }
+
+                    if (data.items[0].volumeInfo.description) {
+                        description = data.items[0].volumeInfo.description;
+                    }
+                    var temp = {
+                        isbn: isbn,
+                        rating: data.items[0].volumeInfo.averageRating,
+                        description: description,
+                        title: data.items[i].volumeInfo.title,
+                        genre: data.items[0].volumeInfo.categories,
+                        authors: data.items[0].volumeInfo.authors,
+                        picture: data.items[0].volumeInfo.imageLinks.thumbnail,
+                        firstTitle: data.items[0].volumeInfo.title
+                    };
+                    var book_title = "<option>" + temp.title + "</option>";
+                    var image = "<img src=" + temp.picture + " height='200' width='200'>";
+                    $("#titles").append(book_title);
+                }
+            }
+
+            console.log(temp.description)
+
+            if (temp.description.includes("'")) {
+                temp.description = temp.description.replace(/'/g, "’");
+                console.log(temp.description)
+                console.log("fixed");
+            }
+            if (temp.authors.includes("'")) {
+                temp.authors = temp.authors.replace(/'/g, "’");
+            }
+            if (temp.genre.includes("'")) {
+                temp.genre = temp.genre.replace(/'/g, "’");
+            }
+
+            str = "<button onclick='AddBookToDB(" + JSON.stringify(temp.firstTitle) + "," + JSON.stringify(temp.isbn) + "," + JSON.stringify(temp.rating) + "," + JSON.stringify(temp.description) + "," + JSON.stringify(temp.genre) + "," + JSON.stringify(temp.authors) + "," + JSON.stringify(temp.picture) + "); '> Add to library! </button>";
+            $("#ph").empty();
+            $("#ph").html(str);
+            $("#author").empty();
+            $("#genre").empty();
+            $("#image").empty();
+            $("#description").empty();
+            $("#author").append(temp.authors);
+            $("#genre").append(temp.genre);
+            $("#image").append(image);
+            $("#description").append(temp.description);
+        }
+
+        function onchangeTitle() {
+            var selectedTitle = document.getElementById("titles").value;
+            console.log(selectedTitle)
+            var url = "https://www.googleapis.com/books/v1/volumes?q=title:";
+            url += selectedTitle;
+            console.log(url);
+            $.get(url).done(successSearchCB);
+            $.get(url).fail(errorOnChangeTitleCB);
+        }
+
+
+        function AddBookToDB(title, isbn, rating, description, genre, author, picture) {
+            var book = {
+                points: 0,
+                bookId: 0,
+                title: title,
+                isbn: isbn,
+                author: author[0],
+                average_rating: rating,
+                description: description,
+                genre: genre[0],
+                picture: picture
+            }
+            if (book.average_rating < 3.64) {
+                book.points = 10;
+            }
+            else if (book.average_rating >= 3.64 && book.average_rating < 4.25) {
+                book.points = 15;
+            }
+            else if (book.average_rating >= 4.25 && book.average_rating < 5) {
+                book.points = 20;
+            }
+            else {
+                book.points = 5;
+            }
+
+            ajaxCall("POST", "http://proj.ruppin.ac.il/bgroup2/prod/api/Book", JSON.stringify(book), PostBookSuccessCB, PostBookErrorCB);
+        }
+        function PostBookSuccessCB(data) {
+
+            ajaxCall("PUT", "http://proj.ruppin.ac.il/bgroup2/prod/api/Library?" + queries[0] + "&bookID=" + data, " ", PutBookSuccessCB, PutBookErrorCB);
+        }
+        function SearchinDBErrorCB(err) {
+            console.log(err)
+        }
+        function PutBookSuccessCB(data) {
+            console.log(data)
+
+            $("#author").empty();
+            $("#titles").empty();
+            $("#genre").empty();
+            $("#image").empty();
+            $("#description").empty();
+            $("#ph").empty();
+            $("#DBtitle").empty();
+            $("#dropdownTitle").empty();
+
+            alert(document.getElementById("bookTitle").value + " Added!")
+            document.getElementById("bookTitle").value = "";
+
+        }
+        function PutBookErrorCB(err) {
+            console.log(err)
+        }
+        function PostBookErrorCB(err) {
+            console.log(err)
+        }
+        function errorCB(err) {
+            console.log(err)
+        }
+        function errorOnChangeTitleCB(err) {
+            console.log(err)
+        }
+    </script>
+</body>
+</html>
